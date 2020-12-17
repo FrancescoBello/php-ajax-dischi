@@ -1,4 +1,11 @@
 header{
   height: 80px;
   background-color: black;
+  .logo{
+    float: left;
+    padding: 10px 20px;
+    img{
+      height: 50px;
+    }
+  }
 }
