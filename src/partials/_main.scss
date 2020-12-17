@@ -1,4 +1,14 @@
 main{
   background-color: darkgrey;
-  height: calc(100vh - 80px)
+  height: calc(100vh - 80px);
+  .album{
+    width: 300px;
+    float: right;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    img{
+      width: 100%;
+    }
+  }
 }
