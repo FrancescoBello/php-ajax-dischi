@@ -4,7 +4,7 @@ header {
 }
 
 header .logo {
-  float: right;
+  float: left;
   padding: 10px 20px;
 }
 
@@ -14,20 +14,24 @@ header .logo img {
 
 main {
   background-color: darkgrey;
-  height: calc(100vh - 80px);
+  height: calc(100% - 80px);
 }
 
-main .album {
+main .albumBox {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+main .albumBox .album {
   margin-top: 30px;
-  padding-right: 20px;
+  margin-right: 20px;
   width: 300px;
-  float: right;
   background-color: black;
   color: white;
   display: inline-block;
 }
 
-main .album img {
+main .albumBox .album img {
   width: 100%;
 }
 

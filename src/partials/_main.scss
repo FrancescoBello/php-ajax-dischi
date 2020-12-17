@@ -1,11 +1,13 @@
 main{
   background-color: darkgrey;
-  height: calc(100vh - 80px);
+  height: calc(100% - 80px);
+  .albumBox{
+  margin-left: 100px;
+  margin-right: 100px;
   .album{
     margin-top: 30px;
-    padding-right: 20px;
+    margin-right: 20px;
     width: 300px;
-    float: right;
     background-color: black;
     color: white;
     display: inline-block;
@@ -13,4 +15,5 @@ main{
       width: 100%;
     }
   }
+ }
 }
